@@ -1,0 +1,84 @@
+2024-01-21 21:06:40.976 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 97596 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 21:06:40.978 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 21:06:40.979 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 21:06:50.005 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 10.264 seconds (process running for 11.219)
+2024-01-21 21:07:22.308 [pool-3-thread-1] ERROR c.t.p.utils.NetRunRateCalculator - Unable to calculate net run rate: Overs bowled:0.0or overs played:0.0 cannot be zero
+2024-01-21 21:09:04.107 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 98033 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 21:09:04.108 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 21:09:04.110 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 21:09:11.907 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.902 seconds (process running for 9.739)
+2024-01-21 21:09:30.189 [pool-3-thread-1] INFO  c.t.p.observers.PointsTableObserver - Updating points table for match result: 1101 1106
+2024-01-21 21:10:26.922 [pool-3-thread-1] ERROR c.t.p.utils.NetRunRateCalculator - Unable to calculate net run rate: Overs bowled:0.0or overs played:0.0 cannot be zero
+2024-01-21 21:12:17.588 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 98546 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 21:12:17.590 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 21:12:17.592 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 21:12:25.340 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.906 seconds (process running for 9.82)
+2024-01-21 21:12:31.029 [pool-3-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.PointsTableObserver
+2024-01-21 21:12:31.029 [pool-3-thread-1] INFO  c.t.p.observers.PointsTableObserver - Updating points table for match result: 1101 1106
+2024-01-21 21:12:42.134 [pool-3-thread-1] ERROR c.t.p.utils.NetRunRateCalculator - Unable to calculate net run rate: Overs bowled:0.0or overs played:0.0 cannot be zero
+2024-01-21 21:13:06.234 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 98768 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 21:13:06.235 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 21:13:06.237 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 21:13:14.318 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.125 seconds (process running for 9.96)
+2024-01-21 21:13:19.696 [pool-3-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.TeamStatsObserver
+2024-01-21 21:13:19.696 [pool-3-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Updating team stats for match result: 1101 1106
+2024-01-21 21:13:20.048 [pool-3-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Team stats updated successfully for team one id: 1101 and team two id: 1106
+2024-01-21 21:37:56.653 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 108286 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 21:37:56.654 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 21:37:56.656 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 21:39:58.274 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 108713 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 21:39:58.277 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 21:39:58.279 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 21:40:05.580 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.243 seconds (process running for 9.076)
+2024-01-21 21:43:38.252 [pool-2-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.TeamStatsObserver
+2024-01-21 21:43:38.253 [pool-2-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Updating team stats for match result: 1101 1106
+2024-01-21 21:43:38.663 [pool-2-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Team stats updated successfully for team one id: 1101 and team two id: 1106
+2024-01-21 21:43:38.663 [pool-2-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.PointsTableObserver
+2024-01-21 21:43:38.664 [pool-2-thread-1] INFO  c.t.p.observers.PointsTableObserver - Updating points table for match result: 1101 1106
+2024-01-21 21:43:46.099 [pool-2-thread-1] INFO  c.t.p.observers.PointsTableObserver - Points table updated successfully for teamId: 1101 and teamId: 1106
+2024-01-21 21:45:58.250 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 109603 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 21:45:58.252 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 21:45:58.253 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 21:46:06.278 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.049 seconds (process running for 9.931)
+2024-01-21 21:49:44.977 [pool-2-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.TeamStatsObserver
+2024-01-21 21:49:44.978 [pool-2-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Updating team stats for match result: 1101 1106
+2024-01-21 21:49:45.329 [pool-2-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Team stats updated successfully for team one id: 1101 and team two id: 1106
+2024-01-21 21:49:45.329 [pool-2-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.PointsTableObserver
+2024-01-21 21:49:45.330 [pool-2-thread-1] INFO  c.t.p.observers.PointsTableObserver - Updating points table for match result: 1101 1106
+2024-01-21 21:49:51.037 [pool-2-thread-1] INFO  c.t.p.observers.PointsTableObserver - Points table updated successfully for teamId: 1101 and teamId: 1106
+2024-01-21 21:51:58.609 [pool-2-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.TeamStatsObserver
+2024-01-21 21:51:58.609 [pool-2-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Updating team stats for match result: 1101 1106
+2024-01-21 21:51:58.669 [pool-2-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Team stats updated successfully for team one id: 1101 and team two id: 1106
+2024-01-21 21:51:58.669 [pool-2-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.PointsTableObserver
+2024-01-21 21:51:58.669 [pool-2-thread-1] INFO  c.t.p.observers.PointsTableObserver - Updating points table for match result: 1101 1106
+2024-01-21 21:51:58.743 [pool-2-thread-1] INFO  c.t.p.observers.PointsTableObserver - Points table updated successfully for teamId: 1101 and teamId: 1106
+2024-01-21 22:04:13.880 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 112484 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 22:04:13.888 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 22:04:13.892 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 22:04:20.747 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 7.687 seconds (process running for 8.261)
+2024-01-21 22:04:39.031 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 112632 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 22:04:39.032 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 22:04:39.034 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 22:04:46.745 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.622 seconds (process running for 9.228)
+2024-01-21 22:08:05.133 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 113260 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 22:08:05.135 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 22:08:05.136 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 22:08:12.088 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 7.849 seconds (process running for 8.468)
+2024-01-21 22:08:49.110 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 113443 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 22:08:49.111 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 22:08:49.112 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 22:08:56.205 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 7.979 seconds (process running for 8.66)
+2024-01-21 22:14:13.471 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 114326 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 22:14:13.478 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 22:14:13.479 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 22:14:20.248 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 7.725 seconds (process running for 8.358)
+2024-01-21 22:17:35.258 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 114876 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-21 22:17:35.259 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-21 22:17:35.261 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-21 22:17:42.285 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 7.924 seconds (process running for 8.535)
+2024-01-21 22:20:41.249 [pool-2-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.TeamStatsObserver
+2024-01-21 22:20:41.250 [pool-2-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Updating team stats for match result: 1101 1106
+2024-01-21 22:20:41.593 [pool-2-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Team stats updated successfully for team one id: 1101 and team two id: 1106
+2024-01-21 22:20:41.593 [pool-2-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.PointsTableObserver
+2024-01-21 22:20:41.593 [pool-2-thread-1] INFO  c.t.p.observers.PointsTableObserver - Updating points table for match result: 1101 1106
+2024-01-21 22:20:41.663 [pool-2-thread-1] INFO  c.t.p.observers.PointsTableObserver - Points table updated successfully for teamId: 1101 and teamId: 1106

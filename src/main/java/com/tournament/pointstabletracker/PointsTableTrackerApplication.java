@@ -1,0 +1,13 @@
+package com.tournament.pointstabletracker;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PointsTableTrackerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PointsTableTrackerApplication.class, args);
+	}
+
+}
