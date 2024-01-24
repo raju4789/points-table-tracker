@@ -1,38 +1,55 @@
-2024-01-22 08:26:02.689 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 122421 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-22 08:26:02.691 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-22 08:26:02.693 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-22 08:26:10.523 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.722 seconds (process running for 9.322)
-2024-01-22 17:45:51.712 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 196660 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-22 17:45:51.714 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-22 17:45:51.720 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-22 17:46:03.040 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 13.323 seconds (process running for 14.794)
-2024-01-22 17:51:13.003 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 197447 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-22 17:51:13.006 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-22 17:51:13.008 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-22 17:51:23.500 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 12.044 seconds (process running for 12.893)
-2024-01-22 17:58:20.049 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 198576 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-22 17:58:20.052 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-22 17:58:20.054 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-22 17:58:31.927 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 13.2 seconds (process running for 14.068)
-2024-01-22 18:01:57.499 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 199201 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-22 18:01:57.500 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-22 18:01:57.502 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-22 18:02:07.241 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 10.889 seconds (process running for 11.673)
-2024-01-22 18:13:47.648 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 200879 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-22 18:13:47.651 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-22 18:13:47.652 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-22 18:14:24.845 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 201103 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-22 18:14:24.847 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-22 18:14:24.873 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-22 18:14:54.760 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 201244 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-22 18:14:54.762 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-22 18:14:54.763 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-22 18:15:05.409 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 11.736 seconds (process running for 12.494)
-2024-01-22 19:20:43.583 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 210942 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-22 19:20:43.585 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-22 19:20:43.586 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-22 19:20:58.044 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 16.068 seconds (process running for 17.086)
-2024-01-22 20:05:55.000 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 217186 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-22 20:05:55.001 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-22 20:05:55.003 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-22 20:06:03.577 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.507 seconds (process running for 10.17)
+2024-01-24 06:57:08.979 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 269489 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 06:57:08.981 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 06:57:08.983 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 06:57:15.936 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 06:57:59.905 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 269717 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 06:57:59.907 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 06:57:59.909 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 06:58:06.541 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 06:58:08.446 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.416 seconds (process running for 10.013)
+2024-01-24 06:58:18.971 [http-nio-8080-exec-1] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
+2024-01-24 06:59:20.875 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 270037 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 06:59:20.876 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 06:59:20.878 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 06:59:27.077 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 06:59:29.005 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.944 seconds (process running for 9.533)
+2024-01-24 06:59:38.718 [http-nio-8080-exec-1] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
+2024-01-24 07:03:02.181 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 270638 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 07:03:02.183 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 07:03:02.185 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 07:03:08.391 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 07:03:09.868 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.663 seconds (process running for 9.305)
+2024-01-24 07:03:16.284 [http-nio-8080-exec-2] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
+2024-01-24 07:04:32.712 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 270932 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 07:04:32.713 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 07:04:32.716 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 07:08:05.585 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 271529 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 07:08:05.586 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 07:08:05.588 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 07:11:35.499 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 272039 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 07:11:35.500 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 07:11:35.502 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 07:13:01.328 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 272306 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 07:13:01.329 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 07:13:01.331 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 07:13:19.056 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 272426 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 07:13:19.058 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 07:13:19.061 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 07:21:23.364 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 273599 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 07:21:23.366 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 07:21:23.371 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 07:22:36.350 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 273935 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 07:22:36.351 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 07:22:36.353 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 07:31:32.290 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 275207 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 07:31:32.292 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 07:31:32.295 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 07:31:38.903 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 07:31:40.660 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.245 seconds (process running for 9.904)
+2024-01-24 07:31:48.734 [http-nio-8080-exec-3] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
+2024-01-24 07:42:55.453 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 277426 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 07:42:55.455 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 07:42:55.457 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 07:43:01.949 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 07:43:03.951 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.641 seconds (process running for 10.382)
+2024-01-24 07:43:13.910 [http-nio-8080-exec-3] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers

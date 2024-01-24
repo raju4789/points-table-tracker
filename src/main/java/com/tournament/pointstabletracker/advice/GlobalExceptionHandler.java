@@ -4,17 +4,22 @@ import com.tournament.pointstabletracker.dto.CommonApiResponse;
 import com.tournament.pointstabletracker.dto.ErrorDetails;
 import com.tournament.pointstabletracker.exceptions.InvalidRequestException;
 import com.tournament.pointstabletracker.exceptions.RecordNotFoundException;
+import org.springframework.core.Ordered;
+import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.validation.FieldError;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 
+import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Order(Ordered.HIGHEST_PRECEDENCE)
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
@@ -40,6 +45,20 @@ public class GlobalExceptionHandler {
                 new ErrorDetails(HttpStatus.BAD_REQUEST.value(), fieldErrorMessages.toString()));
 
         return ResponseEntity.badRequest().body(commonApiResponse);
+    }
+
+    @ExceptionHandler(IOException.class)
+    public ResponseEntity<CommonApiResponse<String>> handleRuntimeException(IOException ex) {
+        ex.printStackTrace();
+        CommonApiResponse<String> commonApiResponse = new CommonApiResponse<>("false", null, new ErrorDetails(HttpStatus.INTERNAL_SERVER_ERROR.value(), ex.getMessage()));
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(commonApiResponse);
+    }
+
+    @ExceptionHandler(RuntimeException.class)
+    public ResponseEntity<CommonApiResponse<String>> handleRuntimeException(RuntimeException ex) {
+        ex.printStackTrace();
+        CommonApiResponse<String> commonApiResponse = new CommonApiResponse<>("false", null, new ErrorDetails(HttpStatus.INTERNAL_SERVER_ERROR.value(), ex.getMessage()));
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(commonApiResponse);
     }
 
     @ExceptionHandler(Exception.class)

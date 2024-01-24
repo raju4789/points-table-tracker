@@ -12,6 +12,7 @@ import com.tournament.pointstabletracker.observers.TeamStatsObserver;
 import com.tournament.pointstabletracker.repository.MatchResultRepository;
 import com.tournament.pointstabletracker.repository.PointsTableRepository;
 import com.tournament.pointstabletracker.repository.TeamRepository;
+import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
