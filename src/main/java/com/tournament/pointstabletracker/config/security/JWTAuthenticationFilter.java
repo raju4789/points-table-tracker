@@ -18,6 +18,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
+import org.springframework.security.web.util.matcher.OrRequestMatcher;
+import org.springframework.security.web.util.matcher.RequestMatcher;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 import org.springframework.web.servlet.HandlerExceptionResolver;
@@ -38,6 +41,11 @@ public class JWTAuthenticationFilter extends OncePerRequestFilter {
 
     private static final Logger logger = (Logger) LoggerFactory.getLogger(JWTAuthenticationFilter.class);
 
+    private final RequestMatcher requestMatcher = new OrRequestMatcher(
+            new AntPathRequestMatcher("/api/v1/auth/**"),
+            new AntPathRequestMatcher("/swagger-ui/**")
+    );
+
     @Override
     protected void doFilterInternal(
             @NotNull HttpServletRequest request,
@@ -45,6 +53,11 @@ public class JWTAuthenticationFilter extends OncePerRequestFilter {
             @NotNull FilterChain filterChain) throws ServletException, IOException, InvalidRequestException {
 
         try {
+            if (requestMatcher.matches(request)) {
+                logger.info("Request is skipped for authentication as it is whitelisted");
+                filterChain.doFilter(request, response);
+                return;
+            }
             final String authorizationHeader = request.getHeader("Authorization");
             final String jwtToken;
             final String username;

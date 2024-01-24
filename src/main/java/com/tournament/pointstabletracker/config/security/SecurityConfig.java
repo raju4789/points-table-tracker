@@ -10,6 +10,7 @@ import org.springframework.security.config.annotation.web.configurers.AbstractHt
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @Configuration
 @EnableWebSecurity
@@ -26,8 +27,8 @@ public class SecurityConfig {
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorizeHttpRequests ->
                         authorizeHttpRequests
-                                .requestMatchers("/api/v1/auth/register", "/api/v1/pointsTable/**")
-                                .permitAll()
+                                .requestMatchers(new AntPathRequestMatcher("/api/v1/auth/register")).permitAll()
+                                .requestMatchers( new AntPathRequestMatcher("swagger-ui/**")).permitAll()
                                 .anyRequest()
                                 .authenticated()
                 )

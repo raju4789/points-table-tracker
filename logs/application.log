@@ -53,3 +53,78 @@
 2024-01-24 07:43:01.949 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
 2024-01-24 07:43:03.951 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.641 seconds (process running for 10.382)
 2024-01-24 07:43:13.910 [http-nio-8080-exec-3] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
+2024-01-24 07:50:50.605 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 278691 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 07:50:50.606 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 07:50:50.608 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 07:50:56.813 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 07:50:58.480 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.733 seconds (process running for 9.351)
+2024-01-24 07:51:06.913 [http-nio-8080-exec-2] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
+2024-01-24 08:04:01.200 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 280512 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:04:01.201 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:04:01.202 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:04:07.450 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:04:09.300 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.947 seconds (process running for 9.559)
+2024-01-24 08:04:15.381 [http-nio-8080-exec-2] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
+2024-01-24 08:06:26.295 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 280968 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:06:26.296 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:06:26.298 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:06:32.196 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:06:33.980 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.635 seconds (process running for 9.337)
+2024-01-24 08:07:14.375 [http-nio-8080-exec-2] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
+2024-01-24 08:07:43.944 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 281227 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:07:43.946 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:07:43.948 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:07:50.389 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:07:52.128 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.047 seconds (process running for 9.647)
+2024-01-24 08:07:59.963 [http-nio-8080-exec-1] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
+2024-01-24 08:09:38.367 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 281581 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:09:38.369 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:09:38.370 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:09:45.676 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:15:02.832 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 325.57 seconds (process running for 326.632)
+2024-01-24 08:15:07.737 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 282533 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:15:07.739 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:15:07.741 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:15:15.215 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:15:22.515 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 15.86 seconds (process running for 16.838)
+2024-01-24 08:15:48.214 [http-nio-8080-exec-1] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
+2024-01-24 08:18:55.582 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 283160 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:18:55.583 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:18:55.590 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:19:03.501 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:19:23.236 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 28.747 seconds (process running for 29.544)
+2024-01-24 08:20:36.092 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 283486 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:20:36.099 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:20:36.101 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:20:43.146 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:20:49.691 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 14.714 seconds (process running for 15.639)
+2024-01-24 08:22:06.469 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 283793 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:22:06.471 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:22:06.473 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:22:13.257 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:24:03.706 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 118.266 seconds (process running for 119.187)
+2024-01-24 08:33:01.877 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 285549 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:33:01.878 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:33:01.879 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:33:09.193 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:33:15.035 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 14.208 seconds (process running for 15.011)
+2024-01-24 08:34:55.849 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 285914 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:34:55.851 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:34:55.852 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:35:03.023 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:35:10.617 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 15.881 seconds (process running for 16.729)
+2024-01-24 08:35:28.217 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 286103 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:35:28.218 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:35:28.220 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:35:35.573 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:35:37.513 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 10.314 seconds (process running for 11.366)
+2024-01-24 08:36:03.524 [http-nio-8080-exec-2] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
+2024-01-24 08:36:10.976 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-24 08:36:34.046 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 286350 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-24 08:36:34.047 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-24 08:36:34.049 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-24 08:36:41.345 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-24 08:36:43.191 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 10.254 seconds (process running for 11.02)
+2024-01-24 08:36:49.215 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-24 08:36:55.101 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-24 08:37:22.844 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
