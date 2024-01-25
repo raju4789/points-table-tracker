@@ -3,8 +3,7 @@ package com.tournament.pointstabletracker.dto;
 import lombok.*;
 
 @Builder
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class CommonApiResponse<T> {

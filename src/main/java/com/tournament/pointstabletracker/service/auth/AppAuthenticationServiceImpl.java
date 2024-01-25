@@ -17,6 +17,9 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
+import java.util.UUID;
+
 @Service
 @RequiredArgsConstructor
 public class AppAuthenticationServiceImpl implements AppAuthenticationService {
@@ -68,6 +71,8 @@ public class AppAuthenticationServiceImpl implements AppAuthenticationService {
                     .firstName(appRegistrationRequest.getFirstName())
                     .lastName(appRegistrationRequest.getLastName())
                     .role(AppUserRole.USER)
+                    .recordCreatedBy(UUID.randomUUID().toString())
+                    .recordCreatedDate(LocalDateTime.now())
                     .build();
 
             appUserRepository.save(user);

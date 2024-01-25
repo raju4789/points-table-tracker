@@ -2,10 +2,7 @@ package com.tournament.pointstabletracker.advice;
 
 import com.tournament.pointstabletracker.dto.CommonApiResponse;
 import com.tournament.pointstabletracker.dto.ErrorDetails;
-import com.tournament.pointstabletracker.exceptions.InvalidRequestException;
-import com.tournament.pointstabletracker.exceptions.RecordAlreadyExistsException;
-import com.tournament.pointstabletracker.exceptions.RecordNotFoundException;
-import com.tournament.pointstabletracker.exceptions.UserUnAuthorizedException;
+import com.tournament.pointstabletracker.exceptions.*;
 import com.tournament.pointstabletracker.service.PointsTableTrackerServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +10,8 @@ import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.AccessDeniedException;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -57,6 +56,20 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(UserUnAuthorizedException.class)
     public ResponseEntity<CommonApiResponse<String>> handleUnAuthorisedException(UserUnAuthorizedException ex) {
         ErrorDetails errorDetails = ErrorDetails.builder().errorCode(HttpStatus.FORBIDDEN.value()).errorMessage(ex.getMessage()).build();
+        CommonApiResponse<String> commonApiResponse = CommonApiResponse.<String>builder().errorDetails(errorDetails).build();
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body(commonApiResponse);
+    }
+
+    @ExceptionHandler(AccessDeniedException.class)
+    public ResponseEntity<CommonApiResponse<String>> handleAccessDeniedException(AccessDeniedException ex) {
+        ErrorDetails errorDetails = ErrorDetails.builder().errorCode(HttpStatus.FORBIDDEN.value()).errorMessage(ex.getMessage()).build();
+        CommonApiResponse<String> commonApiResponse = CommonApiResponse.<String>builder().errorDetails(errorDetails).build();
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body(commonApiResponse);
+    }
+
+    @ExceptionHandler(AuthenticationException.class)
+    public ResponseEntity<CommonApiResponse<String>> handleUnAuthenticatedException(AuthenticationException ex) {
+        ErrorDetails errorDetails = ErrorDetails.builder().errorCode(HttpStatus.UNAUTHORIZED.value()).errorMessage(ex.getMessage()).build();
         CommonApiResponse<String> commonApiResponse = CommonApiResponse.<String>builder().errorDetails(errorDetails).build();
         return ResponseEntity.status(HttpStatus.FORBIDDEN).body(commonApiResponse);
     }

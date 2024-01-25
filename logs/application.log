@@ -468,3 +468,69 @@ java.lang.RuntimeException: could not execute statement [Column 'record_created_
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-01-25 12:21:11.973 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 53989 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 12:21:11.974 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 12:21:11.976 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 12:21:18.124 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 12:21:19.787 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.799 seconds (process running for 9.423)
+2024-01-25 12:22:15.117 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 12:33:05.211 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 55830 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 12:33:05.212 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 12:33:05.213 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 12:33:11.948 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 12:33:13.395 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.11 seconds (process running for 9.742)
+2024-01-25 12:35:07.138 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 17:46:08.597 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 98851 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 17:46:08.598 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 17:46:08.606 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 17:46:14.806 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 17:46:16.565 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.88 seconds (process running for 9.59)
+2024-01-25 17:47:09.673 [http-nio-8080-exec-3] ERROR c.t.p.config.security.SecurityConfig - User not authorised with error: Access Denied
+2024-01-25 18:02:37.986 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 101213 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 18:02:37.987 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 18:02:37.989 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 18:02:43.994 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 18:02:45.555 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.541 seconds (process running for 9.22)
+2024-01-25 18:03:17.554 [http-nio-8080-exec-2] ERROR c.t.p.config.security.SecurityConfig - User not authorised with error: Access Denied
+2024-01-25 18:03:55.845 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 101492 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 18:03:55.846 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 18:03:55.848 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 18:04:01.983 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 18:04:03.548 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.662 seconds (process running for 9.228)
+2024-01-25 18:04:32.795 [http-nio-8080-exec-1] ERROR c.t.p.config.security.SecurityConfig - User not authorised with error: Access Denied
+2024-01-25 18:09:32.401 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 102363 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 18:09:32.404 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 18:09:32.405 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 18:09:38.711 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 18:09:40.247 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.798 seconds (process running for 9.44)
+2024-01-25 18:09:45.858 [http-nio-8080-exec-2] ERROR c.t.p.config.security.SecurityConfig - User not authorised with error: Access Denied
+2024-01-25 18:10:17.325 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 102585 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 18:10:17.326 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 18:10:17.327 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 18:10:23.441 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 18:10:24.940 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.733 seconds (process running for 9.335)
+2024-01-25 18:10:31.509 [http-nio-8080-exec-1] ERROR c.t.p.config.security.SecurityConfig - User not authorised with error: Access Denied
+2024-01-25 18:11:55.417 [http-nio-8080-exec-5] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 18:12:01.488 [http-nio-8080-exec-6] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 18:12:26.240 [http-nio-8080-exec-8] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 18:12:37.415 [http-nio-8080-exec-9] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 18:15:35.694 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 103405 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 18:15:35.695 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 18:15:35.697 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 18:20:43.827 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 104147 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 18:20:43.828 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 18:20:43.832 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 18:22:00.013 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 104420 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 18:22:00.014 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 18:22:00.017 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 18:23:23.316 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 104660 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 18:23:23.318 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 18:23:23.319 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 18:26:21.076 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 105141 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 18:26:21.077 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 18:26:21.080 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 18:26:27.445 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 18:26:28.952 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.824 seconds (process running for 9.487)
+2024-01-25 18:26:39.411 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 18:26:45.035 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 18:26:50.135 [http-nio-8080-exec-5] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
