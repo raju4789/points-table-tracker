@@ -1,7 +1,7 @@
 package com.tournament.pointstabletracker.config.security;
 
 import com.tournament.pointstabletracker.exceptions.InvalidRequestException;
-import com.tournament.pointstabletracker.service.security.JWTService;
+import com.tournament.pointstabletracker.service.security.JWTServiceImpl;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -12,6 +12,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -31,7 +32,7 @@ import java.io.IOException;
 @RequiredArgsConstructor
 public class JWTAuthenticationFilter extends OncePerRequestFilter {
 
-    private final JWTService jwtService;
+    private final JWTServiceImpl jwtService;
 
     private final UserDetailsService userDetailsService;
 
@@ -39,18 +40,27 @@ public class JWTAuthenticationFilter extends OncePerRequestFilter {
     @Qualifier("handlerExceptionResolver")
     private HandlerExceptionResolver resolver;
 
+    @Value("${jwt.tokenPrefix}")
+    private String tokenPrefix;
+
+    @Value("${jwt.authorizationHeaderString}")
+    private String authorizationHeaderString;
+
     private static final Logger logger = (Logger) LoggerFactory.getLogger(JWTAuthenticationFilter.class);
 
     private final RequestMatcher requestMatcher = new OrRequestMatcher(
+            // TODO: Read it from config
             new AntPathRequestMatcher("/api/v1/auth/**"),
-            new AntPathRequestMatcher("/swagger-ui/**")
+            new AntPathRequestMatcher("/swagger-ui/**"),
+            new AntPathRequestMatcher("/api/v1/pointsTable/**"),
+            new AntPathRequestMatcher("/v3/api-docs/**")
     );
 
     @Override
     protected void doFilterInternal(
             @NotNull HttpServletRequest request,
             @NotNull HttpServletResponse response,
-            @NotNull FilterChain filterChain) throws ServletException, IOException, InvalidRequestException {
+            @NotNull FilterChain filterChain) {
 
         try {
             if (requestMatcher.matches(request)) {
@@ -58,17 +68,15 @@ public class JWTAuthenticationFilter extends OncePerRequestFilter {
                 filterChain.doFilter(request, response);
                 return;
             }
-            final String authorizationHeader = request.getHeader("Authorization");
-            final String jwtToken;
-            final String username;
+            final String authorizationHeader = request.getHeader(authorizationHeaderString);
 
-            if ((authorizationHeader == null) || !authorizationHeader.startsWith("Bearer ")) {
+            if ((authorizationHeader == null) || !authorizationHeader.startsWith(tokenPrefix)) {
                 logger.error("No JWT token found in request headers");
                 throw new InvalidRequestException("No JWT token found in request headers");
             }
 
-            jwtToken = authorizationHeader.substring(7);
-            username = jwtService.extractUsername(jwtToken);
+            final String jwtToken = authorizationHeader.substring(7);
+            final String username = jwtService.extractUsername(jwtToken);
 
             if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
                 final UserDetails userDetails = userDetailsService.loadUserByUsername(username);

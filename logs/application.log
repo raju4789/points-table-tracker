@@ -1,130 +1,470 @@
-2024-01-24 06:57:08.979 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 269489 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 06:57:08.981 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 06:57:08.983 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 06:57:15.936 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 06:57:59.905 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 269717 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 06:57:59.907 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 06:57:59.909 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 06:58:06.541 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 06:58:08.446 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.416 seconds (process running for 10.013)
-2024-01-24 06:58:18.971 [http-nio-8080-exec-1] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
-2024-01-24 06:59:20.875 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 270037 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 06:59:20.876 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 06:59:20.878 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 06:59:27.077 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 06:59:29.005 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.944 seconds (process running for 9.533)
-2024-01-24 06:59:38.718 [http-nio-8080-exec-1] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
-2024-01-24 07:03:02.181 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 270638 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 07:03:02.183 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 07:03:02.185 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 07:03:08.391 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 07:03:09.868 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.663 seconds (process running for 9.305)
-2024-01-24 07:03:16.284 [http-nio-8080-exec-2] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
-2024-01-24 07:04:32.712 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 270932 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 07:04:32.713 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 07:04:32.716 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 07:08:05.585 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 271529 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 07:08:05.586 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 07:08:05.588 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 07:11:35.499 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 272039 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 07:11:35.500 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 07:11:35.502 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 07:13:01.328 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 272306 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 07:13:01.329 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 07:13:01.331 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 07:13:19.056 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 272426 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 07:13:19.058 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 07:13:19.061 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 07:21:23.364 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 273599 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 07:21:23.366 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 07:21:23.371 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 07:22:36.350 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 273935 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 07:22:36.351 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 07:22:36.353 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 07:31:32.290 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 275207 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 07:31:32.292 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 07:31:32.295 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 07:31:38.903 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 07:31:40.660 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.245 seconds (process running for 9.904)
-2024-01-24 07:31:48.734 [http-nio-8080-exec-3] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
-2024-01-24 07:42:55.453 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 277426 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 07:42:55.455 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 07:42:55.457 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 07:43:01.949 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 07:43:03.951 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.641 seconds (process running for 10.382)
-2024-01-24 07:43:13.910 [http-nio-8080-exec-3] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
-2024-01-24 07:50:50.605 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 278691 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 07:50:50.606 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 07:50:50.608 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 07:50:56.813 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 07:50:58.480 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.733 seconds (process running for 9.351)
-2024-01-24 07:51:06.913 [http-nio-8080-exec-2] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
-2024-01-24 08:04:01.200 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 280512 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:04:01.201 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:04:01.202 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:04:07.450 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:04:09.300 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.947 seconds (process running for 9.559)
-2024-01-24 08:04:15.381 [http-nio-8080-exec-2] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
-2024-01-24 08:06:26.295 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 280968 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:06:26.296 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:06:26.298 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:06:32.196 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:06:33.980 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.635 seconds (process running for 9.337)
-2024-01-24 08:07:14.375 [http-nio-8080-exec-2] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
-2024-01-24 08:07:43.944 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 281227 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:07:43.946 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:07:43.948 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:07:50.389 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:07:52.128 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.047 seconds (process running for 9.647)
-2024-01-24 08:07:59.963 [http-nio-8080-exec-1] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
-2024-01-24 08:09:38.367 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 281581 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:09:38.369 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:09:38.370 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:09:45.676 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:15:02.832 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 325.57 seconds (process running for 326.632)
-2024-01-24 08:15:07.737 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 282533 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:15:07.739 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:15:07.741 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:15:15.215 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:15:22.515 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 15.86 seconds (process running for 16.838)
-2024-01-24 08:15:48.214 [http-nio-8080-exec-1] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
-2024-01-24 08:18:55.582 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 283160 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:18:55.583 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:18:55.590 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:19:03.501 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:19:23.236 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 28.747 seconds (process running for 29.544)
-2024-01-24 08:20:36.092 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 283486 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:20:36.099 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:20:36.101 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:20:43.146 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:20:49.691 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 14.714 seconds (process running for 15.639)
-2024-01-24 08:22:06.469 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 283793 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:22:06.471 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:22:06.473 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:22:13.257 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:24:03.706 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 118.266 seconds (process running for 119.187)
-2024-01-24 08:33:01.877 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 285549 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:33:01.878 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:33:01.879 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:33:09.193 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:33:15.035 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 14.208 seconds (process running for 15.011)
-2024-01-24 08:34:55.849 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 285914 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:34:55.851 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:34:55.852 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:35:03.023 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:35:10.617 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 15.881 seconds (process running for 16.729)
-2024-01-24 08:35:28.217 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 286103 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:35:28.218 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:35:28.220 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:35:35.573 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:35:37.513 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 10.314 seconds (process running for 11.366)
-2024-01-24 08:36:03.524 [http-nio-8080-exec-2] ERROR c.t.p.c.s.JWTAuthenticationFilter - No JWT token found in request headers
-2024-01-24 08:36:10.976 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
-2024-01-24 08:36:34.046 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 286350 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
-2024-01-24 08:36:34.047 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
-2024-01-24 08:36:34.049 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-01-24 08:36:41.345 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
-2024-01-24 08:36:43.191 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 10.254 seconds (process running for 11.02)
-2024-01-24 08:36:49.215 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
-2024-01-24 08:36:55.101 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
-2024-01-24 08:37:22.844 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 07:19:13.087 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 8334 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 07:19:13.090 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 07:19:13.092 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 07:19:19.967 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 07:19:21.693 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.744 seconds (process running for 10.765)
+2024-01-25 07:28:09.933 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 10032 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 07:28:09.935 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 07:28:09.936 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 07:28:16.609 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 07:28:18.066 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.064 seconds (process running for 9.788)
+2024-01-25 07:29:23.989 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 07:30:17.781 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 07:30:17.895 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 07:30:17.903 [http-nio-8080-exec-6] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 07:30:17.904 [http-nio-8080-exec-7] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 07:30:17.908 [http-nio-8080-exec-5] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 07:30:18.404 [http-nio-8080-exec-8] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 07:30:18.512 [http-nio-8080-exec-9] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 07:43:47.026 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 12214 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 07:43:47.027 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 07:43:47.028 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 07:43:53.267 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 07:43:54.716 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.711 seconds (process running for 9.354)
+2024-01-25 07:44:14.326 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 07:44:14.820 [http-nio-8080-exec-3] ERROR c.t.p.advice.GlobalExceptionHandler - RuntimeException occurred: 
+java.lang.RuntimeException: Decode argument cannot be null.
+	at com.tournament.pointstabletracker.service.auth.AppAuthenticationServiceImpl.register(AppAuthenticationServiceImpl.java:79)
+	at com.tournament.pointstabletracker.controller.AppAuthenticationController.register(AppAuthenticationController.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.tournament.pointstabletracker.config.security.JWTAuthenticationFilter.doFilterInternal(JWTAuthenticationFilter.java:60)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-01-25 07:52:13.588 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 14624 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 07:52:13.589 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 07:52:13.590 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 07:52:19.678 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 07:52:21.166 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.585 seconds (process running for 9.343)
+2024-01-25 07:58:59.119 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 07:59:39.192 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 08:01:00.954 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 16297 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 08:01:00.955 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 08:01:00.957 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 08:01:06.977 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 08:01:08.321 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.376 seconds (process running for 9.054)
+2024-01-25 08:01:18.017 [http-nio-8080-exec-1] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 08:01:28.511 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 08:01:28.799 [http-nio-8080-exec-4] ERROR c.t.p.advice.GlobalExceptionHandler - RuntimeException occurred: 
+java.lang.RuntimeException: Decode argument cannot be null.
+	at com.tournament.pointstabletracker.service.auth.AppAuthenticationServiceImpl.authenticate(AppAuthenticationServiceImpl.java:47)
+	at com.tournament.pointstabletracker.controller.AppAuthenticationController.authenticate(AppAuthenticationController.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.tournament.pointstabletracker.config.security.JWTAuthenticationFilter.doFilterInternal(JWTAuthenticationFilter.java:61)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-01-25 08:05:02.170 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 16930 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 08:05:02.171 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 08:05:02.173 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 08:05:08.495 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 08:05:09.796 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.698 seconds (process running for 9.411)
+2024-01-25 08:05:23.589 [http-nio-8080-exec-1] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 08:43:38.818 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 22353 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 08:43:38.819 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 08:43:38.821 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 08:43:45.087 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 08:43:46.470 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.592 seconds (process running for 9.245)
+2024-01-25 09:36:25.250 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 29731 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 09:36:25.252 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 09:36:25.255 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 09:36:32.017 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 09:36:33.898 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.558 seconds (process running for 10.208)
+2024-01-25 10:13:45.853 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 34918 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 10:13:45.854 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 10:13:45.855 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 10:13:51.725 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 10:13:53.349 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.397 seconds (process running for 9.059)
+2024-01-25 10:14:04.268 [http-nio-8080-exec-1] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:04.402 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:04.422 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:04.423 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:04.427 [http-nio-8080-exec-5] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:04.689 [http-nio-8080-exec-6] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:04.831 [http-nio-8080-exec-7] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:11.329 [http-nio-8080-exec-8] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:11.379 [http-nio-8080-exec-10] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:11.379 [http-nio-8080-exec-9] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:11.481 [http-nio-8080-exec-1] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:11.483 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:11.800 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:11.861 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:14.979 [http-nio-8080-exec-5] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:15.096 [http-nio-8080-exec-6] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:15.114 [http-nio-8080-exec-8] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:15.114 [http-nio-8080-exec-7] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:15.135 [http-nio-8080-exec-9] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:15.332 [http-nio-8080-exec-10] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:15.378 [http-nio-8080-exec-1] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:32.615 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 35097 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 10:14:32.617 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 10:14:32.618 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 10:14:38.712 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 10:14:40.421 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.785 seconds (process running for 9.465)
+2024-01-25 10:14:52.644 [http-nio-8080-exec-1] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:52.771 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:52.781 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:52.786 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:52.805 [http-nio-8080-exec-5] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:53.016 [http-nio-8080-exec-6] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:14:53.090 [http-nio-8080-exec-7] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:16:33.074 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 35480 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 10:16:33.075 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 10:16:33.079 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 10:16:39.047 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 10:16:40.622 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.437 seconds (process running for 9.047)
+2024-01-25 10:17:15.048 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 35667 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 10:17:15.051 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 10:17:15.052 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 10:17:21.145 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 10:17:22.743 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.634 seconds (process running for 9.257)
+2024-01-25 10:17:29.714 [http-nio-8080-exec-1] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:17:29.842 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:17:29.864 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:17:29.869 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:17:29.873 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:17:30.136 [http-nio-8080-exec-5] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:17:30.213 [http-nio-8080-exec-6] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:17:52.049 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 35833 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 10:17:52.052 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 10:17:52.053 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 10:17:59.268 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 10:18:00.883 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 9.868 seconds (process running for 10.536)
+2024-01-25 10:18:05.602 [http-nio-8080-exec-1] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:18:05.759 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:18:05.775 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:18:05.783 [http-nio-8080-exec-4] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:18:05.789 [http-nio-8080-exec-5] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:18:06.000 [http-nio-8080-exec-6] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:18:06.093 [http-nio-8080-exec-7] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 10:58:26.538 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 41523 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 10:58:26.539 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 10:58:26.541 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 11:00:39.408 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 41884 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 11:00:39.410 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 11:00:39.411 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 11:05:06.269 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 42606 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 11:05:06.270 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 11:05:06.272 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 11:05:53.258 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 42788 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 11:05:53.265 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 11:05:53.266 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 11:05:59.801 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 11:06:01.300 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.991 seconds (process running for 9.722)
+2024-01-25 11:07:34.687 [http-nio-8080-exec-1] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 11:10:39.407 [pool-2-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.TeamStatsObserver
+2024-01-25 11:10:39.408 [pool-2-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Updating team stats for match result: 1101 1106
+2024-01-25 11:10:39.631 [pool-2-thread-1] INFO  c.t.p.observers.TeamStatsObserver - Team stats updated successfully for team one id: 1101 and team two id: 1106
+2024-01-25 11:10:39.632 [pool-2-thread-1] INFO  c.t.p.observers.MatchResultSubject - Notifying observer: com.tournament.pointstabletracker.observers.PointsTableObserver
+2024-01-25 11:10:39.632 [pool-2-thread-1] INFO  c.t.p.observers.PointsTableObserver - Updating points table for match result: 1101 1106
+2024-01-25 11:10:39.708 [pool-2-thread-1] INFO  c.t.p.observers.PointsTableObserver - Points table updated successfully for teamId: 1101 and teamId: 1106
+2024-01-25 11:15:26.642 [http-nio-8080-exec-8] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 11:20:01.075 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 44830 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 11:20:01.076 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 11:20:01.078 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 11:20:07.241 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 11:20:08.913 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.918 seconds (process running for 9.496)
+2024-01-25 11:20:16.577 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 11:20:17.123 [http-nio-8080-exec-2] ERROR c.t.p.advice.GlobalExceptionHandler - RuntimeException occurred: 
+java.lang.RuntimeException: could not execute statement [Column 'record_created_by' cannot be null] [insert into app_user (email,first_name,is_active,last_name,password,record_created_by,record_created_date,record_updated_by,record_updated_date,role,username) values (?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into app_user (email,first_name,is_active,last_name,password,record_created_by,record_created_date,record_updated_by,record_updated_date,role,username) values (?,?,?,?,?,?,?,?,?,?,?)]; constraint [null]
+	at com.tournament.pointstabletracker.service.auth.AppAuthenticationServiceImpl.register(AppAuthenticationServiceImpl.java:79)
+	at com.tournament.pointstabletracker.controller.AppAuthenticationController.register(AppAuthenticationController.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.tournament.pointstabletracker.config.security.JWTAuthenticationFilter.doFilterInternal(JWTAuthenticationFilter.java:68)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:225)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)

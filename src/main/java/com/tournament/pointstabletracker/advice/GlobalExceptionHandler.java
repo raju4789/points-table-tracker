@@ -3,7 +3,12 @@ package com.tournament.pointstabletracker.advice;
 import com.tournament.pointstabletracker.dto.CommonApiResponse;
 import com.tournament.pointstabletracker.dto.ErrorDetails;
 import com.tournament.pointstabletracker.exceptions.InvalidRequestException;
+import com.tournament.pointstabletracker.exceptions.RecordAlreadyExistsException;
 import com.tournament.pointstabletracker.exceptions.RecordNotFoundException;
+import com.tournament.pointstabletracker.exceptions.UserUnAuthorizedException;
+import com.tournament.pointstabletracker.service.PointsTableTrackerServiceImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
@@ -19,52 +24,63 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Order(Ordered.HIGHEST_PRECEDENCE)
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
+    private static final Logger logger = (Logger) LoggerFactory.getLogger(GlobalExceptionHandler.class);
+
     @ExceptionHandler(InvalidRequestException.class)
     public ResponseEntity<CommonApiResponse<String>> handleInvalidRequestException(InvalidRequestException ex) {
-        CommonApiResponse<String> commonApiResponse = new CommonApiResponse<>("false", null, new ErrorDetails(HttpStatus.BAD_REQUEST.value(), ex.getMessage()));
+        ErrorDetails errorDetails = ErrorDetails.builder().errorCode(HttpStatus.BAD_REQUEST.value()).errorMessage(ex.getMessage()).build();
+        CommonApiResponse<String> commonApiResponse = CommonApiResponse.<String>builder().errorDetails(errorDetails).build();
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(commonApiResponse);
     }
 
     @ExceptionHandler(RecordNotFoundException.class)
     public ResponseEntity<CommonApiResponse<String>> handleRecordNotFoundException(RecordNotFoundException ex) {
-        CommonApiResponse<String> commonApiResponse = new CommonApiResponse<>("false", null, new ErrorDetails(HttpStatus.BAD_REQUEST.value(), ex.getMessage()));
+        ErrorDetails errorDetails = ErrorDetails.builder().errorCode(HttpStatus.BAD_REQUEST.value()).errorMessage(ex.getMessage()).build();
+        CommonApiResponse<String> commonApiResponse = CommonApiResponse.<String>builder().errorDetails(errorDetails).build();
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(commonApiResponse);
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<CommonApiResponse<List<String>>> handleMethodArgumentNotValidException(MethodArgumentNotValidException ex) {
-        List<String> fieldErrorMessages = ex.getBindingResult().getFieldErrors().stream()
-                .map(FieldError::getDefaultMessage)
-                .toList();
+    public ResponseEntity<CommonApiResponse<String>> handleMethodArgumentNotValidException(MethodArgumentNotValidException ex) {
+        List<String> fieldErrorMessages = ex.getBindingResult().getFieldErrors().stream().map(FieldError::getDefaultMessage).toList();
 
-        CommonApiResponse<List<String>> commonApiResponse = new CommonApiResponse<List<String>>("false", null,
-                new ErrorDetails(HttpStatus.BAD_REQUEST.value(), fieldErrorMessages.toString()));
+        ErrorDetails errorDetails = ErrorDetails.builder().errorCode(HttpStatus.BAD_REQUEST.value()).errorMessage(fieldErrorMessages.toString()).build();
+
+        CommonApiResponse<String> commonApiResponse = CommonApiResponse.<String>builder().errorDetails(errorDetails).build();
 
         return ResponseEntity.badRequest().body(commonApiResponse);
     }
 
-    @ExceptionHandler(IOException.class)
-    public ResponseEntity<CommonApiResponse<String>> handleRuntimeException(IOException ex) {
-        ex.printStackTrace();
-        CommonApiResponse<String> commonApiResponse = new CommonApiResponse<>("false", null, new ErrorDetails(HttpStatus.INTERNAL_SERVER_ERROR.value(), ex.getMessage()));
-        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(commonApiResponse);
+    @ExceptionHandler(UserUnAuthorizedException.class)
+    public ResponseEntity<CommonApiResponse<String>> handleUnAuthorisedException(UserUnAuthorizedException ex) {
+        ErrorDetails errorDetails = ErrorDetails.builder().errorCode(HttpStatus.FORBIDDEN.value()).errorMessage(ex.getMessage()).build();
+        CommonApiResponse<String> commonApiResponse = CommonApiResponse.<String>builder().errorDetails(errorDetails).build();
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body(commonApiResponse);
+    }
+
+    @ExceptionHandler(RecordAlreadyExistsException.class)
+    public ResponseEntity<CommonApiResponse<String>> handleRecordAlreadyExistsException(RecordAlreadyExistsException ex) {
+        ErrorDetails errorDetails = ErrorDetails.builder().errorCode(HttpStatus.BAD_REQUEST.value()).errorMessage(ex.getMessage()).build();
+        CommonApiResponse<String> commonApiResponse = CommonApiResponse.<String>builder().errorDetails(errorDetails).build();
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(commonApiResponse);
     }
 
     @ExceptionHandler(RuntimeException.class)
     public ResponseEntity<CommonApiResponse<String>> handleRuntimeException(RuntimeException ex) {
-        ex.printStackTrace();
-        CommonApiResponse<String> commonApiResponse = new CommonApiResponse<>("false", null, new ErrorDetails(HttpStatus.INTERNAL_SERVER_ERROR.value(), ex.getMessage()));
+        logger.error("RuntimeException occurred: ", ex);
+        ErrorDetails errorDetails = ErrorDetails.builder().errorCode(HttpStatus.INTERNAL_SERVER_ERROR.value()).errorMessage(ex.getMessage()).build();
+        CommonApiResponse<String> commonApiResponse = CommonApiResponse.<String>builder().errorDetails(errorDetails).build();
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(commonApiResponse);
     }
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<CommonApiResponse<String>> handleDefaultException(Exception ex) {
-        ex.printStackTrace();
-        CommonApiResponse<String> commonApiResponse = new CommonApiResponse<>("false", null, new ErrorDetails(HttpStatus.INTERNAL_SERVER_ERROR.value(), ex.getMessage()));
+        logger.error("Exception occurred: ", ex);
+        ErrorDetails errorDetails = ErrorDetails.builder().errorCode(HttpStatus.INTERNAL_SERVER_ERROR.value()).errorMessage(ex.getMessage()).build();
+        CommonApiResponse<String> commonApiResponse = CommonApiResponse.<String>builder().errorDetails(errorDetails).build();
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(commonApiResponse);
     }
 }

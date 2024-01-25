@@ -1,15 +1,18 @@
 package com.tournament.pointstabletracker.dto.auth;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class AppAuthenticationRequest {
-    private String userName;
+
+    @NotBlank(message = "Username cannot be blank")
+    private String username;
+    @NotBlank(message = "Password cannot be blank")
     private String password;
 }

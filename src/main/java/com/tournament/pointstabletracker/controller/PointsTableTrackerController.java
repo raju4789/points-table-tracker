@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/v1/")
 @Tag(name = "Points table tracker")
 public class PointsTableTrackerController {
@@ -36,7 +37,7 @@ public class PointsTableTrackerController {
     @GetMapping("pointsTable/{id}")
     public ResponseEntity<CommonApiResponse<List<PointsTableDTO>>> getPointsTableByTournamentId(@PathVariable(name = "id") Long tournamentId) {
         List<PointsTableDTO> pointsTableDTOList = pointsTableTrackerService.getPointsTableByTournamentId(tournamentId);
-        CommonApiResponse<List<PointsTableDTO>> pointsTable = new CommonApiResponse<>("true", pointsTableDTOList, null);
+        CommonApiResponse<List<PointsTableDTO>> pointsTable = CommonApiResponse.<List<PointsTableDTO>>builder().data(pointsTableDTOList).build();
         return ResponseEntity.ok(pointsTable);
     }
 
@@ -56,7 +57,7 @@ public class PointsTableTrackerController {
 
         return ResponseEntity
                 .status(HttpStatus.CREATED)
-                .body(new CommonApiResponse<>("true", "Match result saved successfully", null));
+                .body(CommonApiResponse.<String>builder().data("Match result saved successfully").build());
     }
 
 }

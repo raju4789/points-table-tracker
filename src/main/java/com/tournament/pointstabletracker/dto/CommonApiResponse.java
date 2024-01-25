@@ -1,20 +1,30 @@
 package com.tournament.pointstabletracker.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-@Setter
+@Builder
 @Getter
-@AllArgsConstructor
+@Setter
 @NoArgsConstructor
+@AllArgsConstructor
 public class CommonApiResponse<T> {
 
-    private String isSuccess;
+    private boolean isSuccess;
 
     private T data;
 
     private ErrorDetails errorDetails;
+
+    public CommonApiResponse(T data) {
+        this.isSuccess = true;
+        this.data = data;
+        this.errorDetails = null;
+    }
+
+    public CommonApiResponse(ErrorDetails errorDetails) {
+        this.isSuccess = false;
+        this.data = null;
+        this.errorDetails = errorDetails;
+    }
 
 }

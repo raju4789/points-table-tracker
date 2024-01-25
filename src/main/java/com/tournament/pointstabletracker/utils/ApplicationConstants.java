@@ -11,7 +11,11 @@ public class ApplicationConstants {
         COMPLETED, TIED, NO_RESULT
     }
 
-    public enum AppRole {
+    public enum AppUserRole {
         ADMIN, USER
+    }
+
+    public enum AppUserPermissions {
+        CREATE, READ, UPDATE, DELETE
     }
 }
