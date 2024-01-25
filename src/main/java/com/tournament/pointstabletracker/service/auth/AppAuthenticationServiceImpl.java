@@ -7,6 +7,7 @@ import com.tournament.pointstabletracker.entity.user.AppUser;
 import com.tournament.pointstabletracker.exceptions.RecordAlreadyExistsException;
 import com.tournament.pointstabletracker.exceptions.RecordNotFoundException;
 import com.tournament.pointstabletracker.exceptions.UserUnAuthorizedException;
+import com.tournament.pointstabletracker.mappers.PointsTableTrackerMappers;
 import com.tournament.pointstabletracker.repository.user.AppUserRepository;
 import com.tournament.pointstabletracker.service.security.JWTServiceImpl;
 import com.tournament.pointstabletracker.utils.ApplicationConstants.AppUserRole;
@@ -25,9 +26,9 @@ import java.util.UUID;
 public class AppAuthenticationServiceImpl implements AppAuthenticationService {
 
     private final AppUserRepository appUserRepository;
-    private final PasswordEncoder passwordEncoder;
     private final JWTServiceImpl jwtService;
     private final AuthenticationManager authenticationManager;
+    private final PointsTableTrackerMappers pointsTableTrackerMappers;
 
     @Override
     public AppAuthenticationResponse authenticate(AppAuthenticationRequest appAuthenticationRequest) {
@@ -50,7 +51,6 @@ public class AppAuthenticationServiceImpl implements AppAuthenticationService {
             throw new RuntimeException(e.getMessage());
         }
 
-
         return AppAuthenticationResponse.builder()
                 .token(JWTToken)
                 .build();
@@ -64,28 +64,21 @@ public class AppAuthenticationServiceImpl implements AppAuthenticationService {
                     .ifPresent(user -> {
                         throw new RecordAlreadyExistsException("User already exists with username: " + appRegistrationRequest.getUsername());
                     });
-            AppUser user = AppUser.builder()
-                    .username(appRegistrationRequest.getUsername())
-                    .password(passwordEncoder.encode(appRegistrationRequest.getPassword()))
-                    .email(appRegistrationRequest.getEmail())
-                    .firstName(appRegistrationRequest.getFirstName())
-                    .lastName(appRegistrationRequest.getLastName())
-                    .role(AppUserRole.USER)
-                    .recordCreatedBy(UUID.randomUUID().toString())
-                    .recordCreatedDate(LocalDateTime.now())
-                    .build();
+            AppUser user = pointsTableTrackerMappers.mapAppRegistrationRequestDTOToAppUser(appRegistrationRequest);
 
             appUserRepository.save(user);
 
             JWTToken = jwtService.generateToken(user);
+
+            return AppAuthenticationResponse.builder()
+                    .token(JWTToken)
+                    .build();
         } catch (RecordAlreadyExistsException e) {
             throw new RecordAlreadyExistsException(e.getMessage());
         } catch (Exception e) {
             throw new RuntimeException(e.getMessage());
         }
 
-        return AppAuthenticationResponse.builder()
-                .token(JWTToken)
-                .build();
+
     }
 }

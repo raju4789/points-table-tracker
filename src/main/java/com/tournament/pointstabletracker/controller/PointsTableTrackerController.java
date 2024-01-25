@@ -8,12 +8,14 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RequiredArgsConstructor
 @RestController
 @CrossOrigin
 @RequestMapping("/api/v1/")
@@ -21,10 +23,6 @@ import java.util.List;
 public class PointsTableTrackerController {
 
     private final PointsTableTrackerService pointsTableTrackerService;
-
-    public PointsTableTrackerController(PointsTableTrackerService pointsTableTrackerService) {
-        this.pointsTableTrackerService = pointsTableTrackerService;
-    }
 
     @Operation(
             description = "Get endpoint to retrieve points table by tournament id",

@@ -14,8 +14,8 @@ import java.util.concurrent.Future;
 
 @Component
 public class MatchResultSubject {
-    private List<MatchResultObserver> observers;
-    private ExecutorService executorService;
+    private final List<MatchResultObserver> observers;
+    private final ExecutorService executorService;
 
     private static final Logger logger = (Logger) LoggerFactory.getLogger(MatchResultSubject.class);
 
@@ -44,7 +44,7 @@ public class MatchResultSubject {
                     }
                 });
                 future.get();
-            } catch (InterruptedException | ExecutionException e) {
+            } catch (InterruptedException | ExecutionException | RuntimeException e) {
                 throw new RuntimeException("Error while notifying observers s", e);
             } catch (Exception e) {
                 throw new RuntimeException("Error while notifying observers", e);

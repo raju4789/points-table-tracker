@@ -534,3 +534,13 @@ java.lang.RuntimeException: could not execute statement [Column 'record_created_
 2024-01-25 18:26:39.411 [http-nio-8080-exec-3] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
 2024-01-25 18:26:45.035 [http-nio-8080-exec-2] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
 2024-01-25 18:26:50.135 [http-nio-8080-exec-5] INFO  c.t.p.c.s.JWTAuthenticationFilter - Request is skipped for authentication as it is whitelisted
+2024-01-25 18:30:57.946 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 105983 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 18:30:57.947 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 18:30:57.948 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 18:31:04.179 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 18:31:05.881 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 8.911 seconds (process running for 9.52)
+2024-01-25 18:57:01.498 [main] INFO  c.t.p.PointsTableTrackerApplication - Starting PointsTableTrackerApplication using Java 17.0.9 with PID 109716 (/home/sss/IdeaProjects/points-table-tracker/target/classes started by sss in /home/sss/IdeaProjects/points-table-tracker)
+2024-01-25 18:57:01.500 [main] DEBUG c.t.p.PointsTableTrackerApplication - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-01-25 18:57:01.501 [main] INFO  c.t.p.PointsTableTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-25 18:57:09.068 [main] DEBUG c.t.p.c.s.JWTAuthenticationFilter - Filter 'JWTAuthenticationFilter' configured for use
+2024-01-25 18:57:10.757 [main] INFO  c.t.p.PointsTableTrackerApplication - Started PointsTableTrackerApplication in 10.475 seconds (process running for 11.155)

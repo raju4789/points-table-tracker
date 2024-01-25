@@ -9,6 +9,7 @@ import com.tournament.pointstabletracker.repository.PointsTableRepository;
 import com.tournament.pointstabletracker.repository.TeamStatsRepository;
 import com.tournament.pointstabletracker.utils.ApplicationConstants;
 import com.tournament.pointstabletracker.utils.NetRunRateCalculator;
+import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,7 @@ import java.util.List;
 import static com.tournament.pointstabletracker.utils.ApplicationConstants.NO_POINTS_FOR_WIN;
 
 @Component
+@RequiredArgsConstructor
 public class PointsTableObserver implements MatchResultObserver {
     private final PointsTableRepository pointsTableRepository;
 
@@ -27,21 +29,14 @@ public class PointsTableObserver implements MatchResultObserver {
 
     private static final Logger logger = (Logger) LoggerFactory.getLogger(PointsTableObserver.class);
 
-
-    @Autowired
-    public PointsTableObserver(PointsTableRepository pointsTableRepository, TeamStatsRepository teamStatsRepository) {
-        this.pointsTableRepository = pointsTableRepository;
-        this.teamStatsRepository = teamStatsRepository;
-    }
-
     @Override
     public void update(AddMatchResultRequest matchResultRequest) throws RecordNotFoundException, InvalidRequestException {
 
         logger.info("Updating points table for match result: {} {}", matchResultRequest.getTeamOneId(), matchResultRequest.getTeamTwoId());
 
-        long tournamentId = matchResultRequest.getTournamentId();
-        long teamOneId = matchResultRequest.getTeamOneId();
-        long teamTwoId = matchResultRequest.getTeamTwoId();
+        final long tournamentId = matchResultRequest.getTournamentId();
+        final long teamOneId = matchResultRequest.getTeamOneId();
+        final long teamTwoId = matchResultRequest.getTeamTwoId();
 
         TeamStats teamOneStats = teamStatsRepository.findByTeamIdAndTournamentId(teamOneId, tournamentId).orElseThrow(() -> new RecordNotFoundException("No stats found with teamId:" + teamOneId + "and tournamentId: " + tournamentId));
 
@@ -57,8 +52,8 @@ public class PointsTableObserver implements MatchResultObserver {
         teamTwoMatchStats.setRecordUpdatedDate(LocalDateTime.now());
         teamOneMatchStats.setRecordUpdatedDate(LocalDateTime.now());
 
-        double netRunRateTeamOne = NetRunRateCalculator.calculateNetRunRate(teamOneStats.getTotalRunsScored(), teamOneStats.getTotalTeamOversPlayed(), teamOneStats.getTotalRunsConceded(), teamOneStats.getTotalOversBowled());
-        double netRunRateTeamTwo = NetRunRateCalculator.calculateNetRunRate(teamTwoStats.getTotalRunsScored(), teamTwoStats.getTotalTeamOversPlayed(), teamTwoStats.getTotalRunsConceded(), teamTwoStats.getTotalOversBowled());
+        final double netRunRateTeamOne = NetRunRateCalculator.calculateNetRunRate(teamOneStats.getTotalRunsScored(), teamOneStats.getTotalTeamOversPlayed(), teamOneStats.getTotalRunsConceded(), teamOneStats.getTotalOversBowled());
+        final double netRunRateTeamTwo = NetRunRateCalculator.calculateNetRunRate(teamTwoStats.getTotalRunsScored(), teamTwoStats.getTotalTeamOversPlayed(), teamTwoStats.getTotalRunsConceded(), teamTwoStats.getTotalOversBowled());
 
         if (matchResultRequest.getMatchResultStatus() == ApplicationConstants.MatchResultStatus.COMPLETED) {
 

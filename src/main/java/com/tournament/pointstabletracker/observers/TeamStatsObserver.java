@@ -8,6 +8,7 @@ import com.tournament.pointstabletracker.repository.TeamStatsRepository;
 import com.tournament.pointstabletracker.repository.TournamentRepository;
 import com.tournament.pointstabletracker.utils.ApplicationConstants;
 import com.tournament.pointstabletracker.utils.NetRunRateCalculator;
+import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,26 +18,21 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Component
+@RequiredArgsConstructor
 public class TeamStatsObserver implements MatchResultObserver {
     private final TeamStatsRepository teamStatsRepository;
     private final TournamentRepository tournamentRepository;
 
     private static final Logger logger = (Logger) LoggerFactory.getLogger(TeamStatsObserver.class);
 
-    @Autowired
-    public TeamStatsObserver(TeamStatsRepository teamStatsRepository, TournamentRepository tournamentRepository) {
-        this.teamStatsRepository = teamStatsRepository;
-        this.tournamentRepository = tournamentRepository;
-    }
-
     @Override
     public void update(AddMatchResultRequest matchResult) throws RecordNotFoundException {
 
         logger.info("Updating team stats for match result: {} {}", matchResult.getTeamOneId(), matchResult.getTeamTwoId());
 
-        long tournamentId = matchResult.getTournamentId();
-        long teamOneId = matchResult.getTeamOneId();
-        long teamTwoId = matchResult.getTeamTwoId();
+        final long tournamentId = matchResult.getTournamentId();
+        final long teamOneId = matchResult.getTeamOneId();
+        final long teamTwoId = matchResult.getTeamTwoId();
 
         Tournament tournament = tournamentRepository.findById(tournamentId).orElseThrow(() -> new RecordNotFoundException("No tournament not found for given id : " + tournamentId));
 
